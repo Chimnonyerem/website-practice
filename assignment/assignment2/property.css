@@ -1,0 +1,40 @@
+
+body{
+background-color: aquamarine;
+}
+main{
+    display: flex;
+    justify-content: center; 
+    margin: 0 auto;
+    width: 800px;
+}
+.flag{
+     display: flex; 
+    
+}
+.handle{
+    border: 2px solid black; 
+    width: 5px; height: 600px; 
+    background-color: grey;
+}
+:root{
+ --flag-width:100px;
+ --flag-height:300px;
+ --background-color1:green;
+ --background-color2:white;
+}
+.one{
+width: var(--flag-width);
+height: var(--flag-height);
+background-color: var(--background-color1);
+}
+.two{
+width: var(--flag-width);
+height: var(--flag-height);
+background-color: var(--background-color2);
+}
+.three{
+width: var(--flag-width);
+height: var(--flag-height);
+background-color: var(--background-color1);
+}
